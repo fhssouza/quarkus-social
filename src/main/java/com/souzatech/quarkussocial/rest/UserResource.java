@@ -1,10 +1,9 @@
 package com.souzatech.quarkussocial.rest;
 
 import com.souzatech.quarkussocial.rest.dto.CreateUserRequest;
-
-import javax.ws.rs.*;
-import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.Response;
+import jakarta.ws.rs.*;
+import jakarta.ws.rs.core.MediaType;
+import jakarta.ws.rs.core.Response;
 
 @Path("/users")
 @Consumes(MediaType.APPLICATION_JSON)
